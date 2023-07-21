@@ -1,0 +1,46 @@
+@font-face {
+    font-family: LCD_font;
+    src: url(./font/5x7-dot-matrix-character-lcd-font.ttf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #57585d;
+    
+}
+
+.LCD{
+    height: 79px;
+    width: 269px;
+    background-color: rgb(94, 255, 0);
+}
+
+pre {
+    padding: 1px 0px 0px 3px;
+    margin: 0;
+    font-family: LCD_font;
+    color: #000000;
+    font-size: 15px;
+}
+
+.buttongroup{
+    margin-top: 10px;
+}
+
+.buttongroup .button:hover {
+    opacity: 1;
+}
+
+
+.buttongroup .button {
+    border: 1px solid;
+    background-color: #383838;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: -webkit-grab;
+    display: inline-block;
+    width: 55px;
+    height: 22px;
+    margin: 0 auto;
+    margin-right: 7px;
+}
