@@ -10,7 +10,7 @@
 **I am not responsible for any miss-activations or damages caused by this software.**
 
 ## Release Notes
-- 6/21/2023 - Initial release.
+- 7/21/2023 - Initial release.
 
 <br />
 
