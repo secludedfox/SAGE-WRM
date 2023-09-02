@@ -30,12 +30,12 @@
 \
  Linux:
  ```bash
- pip3 install pyserial websockets
+ pip3 install pyserial websockets==11.0.3
  ```
 
  Windows:
  ```bash
- pip install pyserial websockets
+ pip install pyserial websockets==11.0.3
  ```
 
 ## Setup
