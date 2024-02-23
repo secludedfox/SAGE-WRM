@@ -43,7 +43,7 @@ class SerialConnection:
             parity=serial.PARITY_NONE,\
             stopbits=serial.STOPBITS_ONE,\
             bytesize=serial.EIGHTBITS,\
-                timeout=0)
+                timeout=1)
         print("Connected to: " + self.ser.portstr)
 
 
