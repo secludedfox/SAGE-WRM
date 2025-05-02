@@ -1,11 +1,8 @@
 {
-    "serial_port": "/dev/ttyUSB0 or COM0",
+    "serial_port": "/dev/tty or COM#",
     "serial_port_baud": 9600,
 
-    "websocket_ip": "localhost",
-    "websocket_port": 8333,
+	"webserver_host": "0.0.0.0",
+    "webserver_port": 8080
 
-    
-
-    "debug_mode": false
 }
